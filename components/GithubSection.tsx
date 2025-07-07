@@ -175,7 +175,7 @@ const GithubSection = () => {
             asChild
           >
             <a 
-              href="https://github.com/RanggaGibran?tab=repositories" 
+              href="https://github.com/BLUEGAMINGID?tab=repositories" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2"
