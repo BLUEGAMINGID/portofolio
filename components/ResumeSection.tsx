@@ -97,19 +97,6 @@ const ResumeSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Button 
-              className="group text-lg px-10 py-6 rounded-full shadow-2xl shadow-primary/30 hover:shadow-primary/50 magnetic-btn pulse-glow" 
-              asChild
-            >
-              <a 
-                href="https://cdn.pintarnya.com/jobseekers/8752078/cv/20250618025444_b49a0606-c0d0-4222-922f-7b30a735bf5d.pdf" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center"
-              >
-                <Download className="mr-3 h-6 w-6 group-hover:-translate-y-1 group-hover:scale-110 transition-all duration-300" />
-                Download CV
-                <TrendingUp className="ml-3 h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
               </a>
             </Button>
           </motion.div>
