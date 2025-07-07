@@ -97,7 +97,6 @@ const ResumeSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            </Button>
           </motion.div>
         </motion.div>
 
