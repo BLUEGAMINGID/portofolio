@@ -6,19 +6,24 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const skillsData = [
-  { name: 'Python', level: 45, category: 'Backend' },
-  { name: 'Ruby', level: 25, category: 'Backend' },
-  { name: 'Javascript', level: 65, category: 'Backend' },
-  { name: 'TypeScript', level: 55, category: 'Frontend' },
-  { name: 'Node.js', level: 65, category: 'Backend' },
-  { name: 'SQL', level: 50, category: 'Database' },
+  { name: 'C#', level: 95, category: 'Backend' },
+  { name: 'C++', level: 90, category: 'Systems' },
+  { name: 'Python', level: 85, category: 'Backend' },
+  { name: 'Rust', level: 80, category: 'Systems' },
+  { name: 'Ruby', level: 75, category: 'Backend' },
+  { name: 'Java', level: 85, category: 'Backend' },
+  { name: 'JavaScript', level: 90, category: 'Frontend' },
+  { name: 'TypeScript', level: 85, category: 'Frontend' },
+  { name: 'React', level: 90, category: 'Frontend' },
+  { name: 'Node.js', level: 85, category: 'Backend' },
+  { name: 'SQL', level: 80, category: 'Database' },
   { name: 'Git', level: 90, category: 'Tools' },
 ];
 
 const experienceData = [
   {
-    role: 'Luascript Engineering',
-    company: 'in Community',
+    role: 'Luascript Engineer',
+    company: 'Luascript Community',
     duration: '2020 29 Oktober - 1 Januari 2023',
     description: 'Actively involved in the LuaScript community, focusing on the development of encryption systems, obfuscation techniques, and game code creation and modification. Engaged in various discussions, experiments, and collaborative projects to develop secure, efficient, and innovative solutions in Lua programming.',
     achievements: ['Led and Managed Multiple Online Scripting Projects', 'Hosted Online Encryption Classes'],
@@ -97,6 +102,21 @@ const ResumeSection = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
+            <Button 
+              className="group text-lg px-10 py-6 rounded-full shadow-2xl shadow-primary/30 hover:shadow-primary/50 magnetic-btn pulse-glow" 
+              asChild
+            >
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center"
+              >
+                <Download className="mr-3 h-6 w-6 group-hover:-translate-y-1 group-hover:scale-110 transition-all duration-300" />
+                Download CV
+                <TrendingUp className="ml-3 h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
+              </a>
+            </Button>
           </motion.div>
         </motion.div>
 

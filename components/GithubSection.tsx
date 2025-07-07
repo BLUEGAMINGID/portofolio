@@ -26,7 +26,7 @@ const GithubSection = () => {
     try {
       setIsLoading(true);
       setError(null);
-      const data = await fetchGithubRepos('RanggaGibran');
+      const data = await fetchGithubRepos('BLUEGAMINGID');
       setRepos(data);
     } catch (err) {
       console.error('Error loading repos:', err);
