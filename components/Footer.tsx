@@ -29,7 +29,7 @@ const Footer = () => {
               <Code className="h-6 w-6 text-primary" />
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-lg"></div>
             </div>
-            <span className="font-bold text-xl gradient-text">Rangga Gibran</span>
+            <span className="font-bold text-xl gradient-text">Danish Fiqhi Arrazy</span>
           </motion.div>
           
           <div className="flex flex-col md:flex-row items-center gap-4 text-center md:text-right">
@@ -49,7 +49,7 @@ const Footer = () => {
             </motion.div>
             
             <div className="text-sm text-muted-foreground">
-              © {currentYear} Rangga Gibran. All rights reserved.
+              © {currentYear} Danish Fiqhi Arrazy. All rights reserved.
             </div>
           </div>
         </motion.div>

@@ -7,9 +7,9 @@ import { ArrowDownCircle, Code, Github, Sparkles, Zap, Rocket } from 'lucide-rea
 
 const Hero = () => {
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Beginner Developer';
+  const fullText = 'FullStack Developer';
   const [currentTech, setCurrentTech] = useState(0);
-  const technologies = ['Lua', 'Python', 'Javascript', 'TypeScript'];
+  const technologies = ['Lua', 'Python', 'Rust', 'Javascript', 'TypeScript', 'React'];
   
   useEffect(() => {
     if (typedText.length < fullText.length) {
@@ -133,7 +133,7 @@ const Hero = () => {
               >
                 Hi, I'm{' '}
                 <span className="gradient-text relative text-glow">
-                  Danish Fiqhi Arrazy
+                  Rangga Gibran
                 </span>
               </motion.h1>
             </div>
@@ -207,7 +207,7 @@ const Hero = () => {
             variants={itemVariants}
             className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto"
           >
-            {['Lua','Python','Javascript','TypeScript'].map((tech, index) => (
+            {['Lua', 'Python', 'TypeScript', 'Javascript'].map((tech, index) => (
               <motion.div
                 key={tech}
                 className="glass rounded-xl p-6 hover:bg-primary/10 transition-all duration-500 card-hover group"

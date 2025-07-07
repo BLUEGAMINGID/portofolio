@@ -202,7 +202,7 @@ const ContactSection = () => {
               asChild
             >
               <a 
-                href="mailto:anggakatio73@gmail.com"
+                href="mailto:danishfiqhiarrazy@gmail.com"
                 className="flex items-center gap-3"
               >
                 <Send className="h-6 w-6" />
