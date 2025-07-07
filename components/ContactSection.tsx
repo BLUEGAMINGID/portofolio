@@ -33,14 +33,14 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: 'Location',
-      content: 'Jakarta, Indonesia',
+      content: 'Pekanbaru, Indonesia',
       color: 'text-blue-500',
       bgColor: 'bg-blue-500/10',
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'danishfiqhiarrazy@gmail.com',
+      content: 'anggakatio73@gmail.com',
       color: 'text-green-500',
       bgColor: 'bg-green-500/10',
       href: 'mailto:anggakatio73@gmail.com',
@@ -48,7 +48,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: 'Phone',
-      content: '+62 851 7320 0843',
+      content: '+62 857 6206 5369',
       color: 'text-purple-500',
       bgColor: 'bg-purple-500/10',
       href: 'tel:+6285762065369',
@@ -59,13 +59,13 @@ const ContactSection = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/BLUEGAMINGID',
+      href: 'https://github.com/RanggaGibran',
       color: 'hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-black',
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/danish-fa-132aba2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      href: '#',
       color: 'hover:bg-blue-600 hover:text-white',
     },
     {
@@ -202,7 +202,7 @@ const ContactSection = () => {
               asChild
             >
               <a 
-                href="mailto:danishfiqhiarrazy@gmail.com"
+                href="mailto:anggakatio73@gmail.com"
                 className="flex items-center gap-3"
               >
                 <Send className="h-6 w-6" />

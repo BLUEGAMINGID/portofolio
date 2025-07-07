@@ -9,7 +9,7 @@ const Hero = () => {
   const [typedText, setTypedText] = useState('');
   const fullText = 'FullStack Developer';
   const [currentTech, setCurrentTech] = useState(0);
-  const technologies = ['Lua', 'Python', 'Rust', 'Javascript', 'TypeScript', 'React'];
+  const technologies = ['C#', 'Python', 'Rust', 'Java', 'TypeScript', 'React'];
   
   useEffect(() => {
     if (typedText.length < fullText.length) {
@@ -170,7 +170,7 @@ const Hero = () => {
           <motion.div variants={itemVariants}>
             <div className="glass rounded-2xl p-8 mb-12 max-w-3xl mx-auto">
               <p className="text-xl md:text-2xl leading-relaxed text-balance text-visible">
-                From <span className="text-primary-visible font-semibold text-glow">Jakarta</span>, I craft exceptional web applications 
+                From <span className="text-primary-visible font-semibold text-glow">Pekanbaru</span>, I craft exceptional web applications 
                 using cutting-edge technologies. Passionate about creating digital experiences that make a difference.
               </p>
             </div>
@@ -196,7 +196,7 @@ const Hero = () => {
               className="text-lg px-10 py-6 rounded-full glass hover:bg-primary/10 border-primary/30 hover:border-primary/50 transition-all duration-500 magnetic-btn text-visible"
               asChild
             >
-              <a href="https://github.com/BLUEGAMINGID" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/RanggaGibran" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-3 h-6 w-6" />
                 GitHub Profile
               </a>
@@ -207,7 +207,7 @@ const Hero = () => {
             variants={itemVariants}
             className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto"
           >
-            {['Lua', 'Python', 'TypeScript', 'Javascript'].map((tech, index) => (
+            {['C#', 'Python', 'Rust', 'Java'].map((tech, index) => (
               <motion.div
                 key={tech}
                 className="glass rounded-xl p-6 hover:bg-primary/10 transition-all duration-500 card-hover group"

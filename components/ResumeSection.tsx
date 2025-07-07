@@ -22,27 +22,34 @@ const skillsData = [
 
 const experienceData = [
   {
-    role: 'Luascript Engineer',
-    company: 'Luascript Community',
-    duration: '2020 29 Oktober - 1 Januari 2023',
-    description: 'Actively involved in the LuaScript community, focusing on the development of encryption systems, obfuscation techniques, and game code creation and modification. Engaged in various discussions, experiments, and collaborative projects to develop secure, efficient, and innovative solutions in Lua programming.',
-    achievements: ['Led and Managed Multiple Online Scripting Projects', 'Hosted Online Encryption Classes'],
+    role: 'Staff PHL',
+    company: 'Badan Pengelola Usaha UNRI',
+    duration: '2023 1 Mei - 31 Desember 2023',
+    description: 'Managing and maintaining critical server infrastructure to support business operations. Demonstrated excellent communication skills in effectively interacting with both technical and non-technical teams.',
+    achievements: ['Improved server uptime by 99.9%', 'Led infrastructure modernization', 'Mentored junior staff'],
+  },
+  {
+    role: 'Staff Kontrak BPU',
+    company: 'Badan Pengelola Usaha UNRI',
+    duration: '2022 15 Jan - 25 April 2023',
+    description: 'Responsible for server management and system administration tasks. Collaborated with cross-functional teams to ensure optimal system performance.',
+    achievements: ['Optimized system performance', 'Implemented monitoring solutions', 'Reduced downtime by 40%'],
+  },
+  {
+    role: 'Server Manager',
+    company: 'Server Management',
+    duration: '2018 09 Oct - 1 November 2021',
+    description: 'Led server management initiatives and infrastructure maintenance. Implemented robust monitoring systems and troubleshooting protocols.',
+    achievements: ['Managed 50+ servers', 'Implemented backup strategies', 'Established monitoring protocols'],
   },
 ];
 
 const educationData = [
   {
-    degree: 'Junior High School',
-    institution: 'SMPN 244 Jakarta',
-    duration: '2020-2023',
-    description: 'Focused on applying mathematics and informatics to enhance my computer science foundation, particularly through Lua scripting projects and ongoing academic development.',
-    grade: 'Good',
-  },
-  {
-    degree: 'Senior High School',
-    institution: 'MAN 5 Jakarta',
-    duration: '2023-now',
-    description: 'Focused on leveraging the power of mathematics and informatics to strengthen and deepen my foundation in computer science, enabling more effective problem-solving and innovation.',
+    degree: 'Vocational High School',
+    institution: 'SMK Labor Binaan FKIP UNRI',
+    duration: '2017-2020',
+    description: 'Focused on technical and practical skills in computer science and information technology.',
     grade: 'Excellent',
   },
 ];
@@ -107,7 +114,7 @@ const ResumeSection = () => {
               asChild
             >
               <a 
-                href="#" 
+                href="https://cdn.pintarnya.com/jobseekers/8752078/cv/20250618025444_b49a0606-c0d0-4222-922f-7b30a735bf5d.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center"

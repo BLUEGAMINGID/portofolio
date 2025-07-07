@@ -26,7 +26,7 @@ const GithubSection = () => {
     try {
       setIsLoading(true);
       setError(null);
-      const data = await fetchGithubRepos('BLUEGAMINGID');
+      const data = await fetchGithubRepos('RanggaGibran');
       setRepos(data);
     } catch (err) {
       console.error('Error loading repos:', err);
@@ -175,7 +175,7 @@ const GithubSection = () => {
             asChild
           >
             <a 
-              href="https://github.com/BLUEGAMINGID?tab=repositories" 
+              href="https://github.com/RanggaGibran?tab=repositories" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2"
