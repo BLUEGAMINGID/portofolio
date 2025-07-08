@@ -54,7 +54,8 @@ const Header = () => {
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}>
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
           <Link href="/" className="text-xl font-bold flex items-center gap-3 group">
             <div className="relative">
               <Code className="h-7 w-7 text-primary group-hover:rotate-12 transition-transform duration-300" />
