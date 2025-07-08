@@ -1,5 +1,5 @@
 {
-  "name": "rangga-portfolio",
+  "name": "danish-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -70,6 +70,6 @@
     "zod": "^3.23.8"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=21.0.0"
   }
 }
